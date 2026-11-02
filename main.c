@@ -4,11 +4,11 @@ int main(void)
 {
     int input;
     scanf("%d", &input);
-    if (0<=x)
+    if (input>=0)
     {
         printf("OK");
     }
-    else(x<10)
+    else(input<10)
     {
         printf("NG");
     }
